@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/022UGDW213/022UGDW213/main/assets/ibot-avatar.svg" width="180" alt="iBot" />
+</p>
+
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=30&pause=1000&color=00FF9D&center=true&vCenter=true&random=false&width=600&lines=Juan+J+Serrano+P;Time+Loops+%E2%80%94+Autonomous+Systems;iBot+Synthetic+Intelligence;Cybersecurity+%7C+AI+%7C+Cloud" alt="Typing SVG" />
 </h1>
@@ -24,6 +28,10 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 
 ### Flagship: iBot Synthetic Intelligence V8
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/022UGDW213/022UGDW213/main/assets/ibot-banner.svg" width="100%" alt="iBot Banner" />
+</p>
+
 <table>
 <tr>
 <td align="center"><strong>136+</strong><br><sub>AI Skills</sub></td>
@@ -34,7 +42,7 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 </tr>
 </table>
 
-**Features:** AI Copilot, Code IDE, CyberLab Security Dashboard, Skill Marketplace, Pipeline Composer, Group Chat, Vision Analysis, GitHub Auto-Deploy
+**Features:** AI Copilot, Code IDE, CyberLab Security (339K+ CVEs live), Skill Marketplace, Pipeline Composer, Group Chat, Ollama Vision, GitHub Auto-Deploy
 
 **Stack:** TensorFlow, PyTorch, Transformers, scikit-learn, OpenCV, ChromaDB, LangChain, FastAPI
 
@@ -55,24 +63,24 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI platform — 19 panels, 136+ skills, CyberLab | Node.js, C++, Python |
-| [**CyberLab Security**](https://github.com/022UGDW213/cyberlab-security-platform) | Security dashboard — CVE database, scanner, AI threat analysis | React, TypeScript |
-| [**Network**](https://022ugdw213.github.io/network/) | Personal portfolio — particles, glassmorphism, responsive | HTML, CSS, JS |
-| [**Harmony-OS-Next**](https://github.com/022UGDW213/Harmony-OS-Next) | HarmonyOS NEXT development resources | C, ArkTS |
+| [**CyberLab Security**](https://github.com/022UGDW213/cyberlab-security-platform) | Security dashboard — CVE, breaches, AI threat analysis | React, TypeScript |
+| [**Network**](https://022ugdw213.github.io/network/) | Portfolio — particles, glassmorphism, responsive | HTML, CSS, JS |
+| [**Harmony-OS-Next**](https://github.com/022UGDW213/Harmony-OS-Next) | HarmonyOS NEXT development | C, ArkTS |
 | [**Python Programming**](https://github.com/022UGDW213/Python-Programing) | 16-section Python course with AI/ML | Python |
-| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated HarmonyOS resources — EN/CN/TR docs | C |
+| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated resources — EN/CN/TR docs | C |
 | [**OpenClaw**](https://github.com/022UGDW213/openclaw) | Personal AI assistant (fork) | TypeScript |
 
 ---
 
-### CyberLab — Live Security Data
+### CyberLab — Live Security Intelligence
 
 | Source | Data |
 |--------|------|
 | NVD (NIST) | 339,000+ CVEs — real-time vulnerability tracking |
 | CISA KEV | 1,551 known exploited vulnerabilities |
 | HIBP | 962 verified data breaches |
-| Shodan | IP reconnaissance — ports, vulns, hostnames |
-| OSV.dev | npm/PyPI package vulnerability checks |
+| Shodan InternetDB | IP recon — ports, vulns, hostnames |
+| OSV.dev | Package vulnerability checks |
 
 ---
 
@@ -89,7 +97,7 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 
 ---
 
-### Activity Graph
+### Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=022UGDW213&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff9d&line=00b8ff&point=ffffff" />
