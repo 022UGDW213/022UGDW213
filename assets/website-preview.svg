@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080810"/>
+      <stop offset="40%" stop-color="#0a1020"/>
+      <stop offset="100%" stop-color="#060610"/>
+    </linearGradient>
+    <linearGradient id="tGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff9d"/>
+      <stop offset="100%" stop-color="#00b8ff"/>
+    </linearGradient>
+    <filter id="sGlow"><feGaussianBlur stdDeviation="4" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+    <clipPath id="rClip"><rect width="1200" height="630" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rClip)">
+    <rect width="1200" height="630" fill="url(#cardBg)"/>
+
+    <!-- Grid -->
+    <g stroke="#00ff9d" stroke-width="0.3" opacity="0.04">
+      <line x1="0" y1="0" x2="0" y2="630"/><line x1="120" y1="0" x2="120" y2="630"/><line x1="240" y1="0" x2="240" y2="630"/><line x1="360" y1="0" x2="360" y2="630"/><line x1="480" y1="0" x2="480" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/><line x1="720" y1="0" x2="720" y2="630"/><line x1="840" y1="0" x2="840" y2="630"/><line x1="960" y1="0" x2="960" y2="630"/><line x1="1080" y1="0" x2="1080" y2="630"/><line x1="1200" y1="0" x2="1200" y2="630"/>
+      <line x1="0" y1="0" x2="1200" y2="0"/><line x1="0" y1="126" x2="1200" y2="126"/><line x1="0" y1="252" x2="1200" y2="252"/><line x1="0" y1="378" x2="1200" y2="378"/><line x1="0" y1="504" x2="1200" y2="504"/><line x1="0" y1="630" x2="1200" y2="630"/>
+    </g>
+
+    <!-- Glow orb -->
+    <circle cx="300" cy="315" r="250" fill="#00ff9d" opacity="0.015"/>
+    <circle cx="900" cy="315" r="200" fill="#00b8ff" opacity="0.01"/>
+
+    <!-- Left: Logo + Hex -->
+    <g transform="translate(200,250)" filter="url(#sGlow)">
+      <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" fill="none" stroke="#00ff9d" stroke-width="2">
+        <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="0,-55 48,-27.5 48,27.5 0,55 -48,27.5 -48,-27.5" fill="rgba(0,255,157,0.03)" stroke="#00ff9d" stroke-width="1" opacity="0.5"/>
+      <!-- Vertex nodes -->
+      <circle cx="0" cy="-80" r="5" fill="#00ff9d"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="69" cy="-40" r="4" fill="#00b8ff"><animate attributeName="r" values="3;5;3" dur="2.3s" repeatCount="indefinite"/></circle>
+      <circle cx="69" cy="40" r="4" fill="#00b8ff"/>
+      <circle cx="0" cy="80" r="5" fill="#00ff9d"><animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="-69" cy="40" r="4" fill="#00ff9d"/>
+      <circle cx="-69" cy="-40" r="4" fill="#00b8ff"/>
+      <!-- Core -->
+      <circle r="22" fill="#00ff9d" opacity="0.1"><animate attributeName="r" values="18;26;18" dur="3s" repeatCount="indefinite"/></circle>
+      <circle r="14" fill="#00ff9d" opacity="0.9" filter="url(#sGlow)"/>
+      <circle r="6" fill="#080810"/>
+      <!-- Spokes -->
+      <g stroke="#00ff9d" stroke-width="0.5" opacity="0.2"><line x1="0" y1="0" x2="0" y2="-80"/><line x1="0" y1="0" x2="69" y2="-40"/><line x1="0" y1="0" x2="69" y2="40"/><line x1="0" y1="0" x2="0" y2="80"/><line x1="0" y1="0" x2="-69" y2="40"/><line x1="0" y1="0" x2="-69" y2="-40"/></g>
+      <!-- Orbit -->
+      <circle r="100" fill="none" stroke="#00ff9d" stroke-width="0.5" opacity="0.1" stroke-dasharray="5 8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/></circle>
+      <circle r="3" fill="#00b8ff" opacity="0.7"><animateMotion dur="20s" repeatCount="indefinite" path="M0,-100 A100,100 0 1,1 -0.1,-100"/></circle>
+    </g>
+
+    <!-- Right: Text -->
+    <text x="420" y="170" font-family="monospace" font-size="20" fill="#00ff9d" opacity="0.6" letter-spacing="5">WWW.O22UGDW213.NETWORK</text>
+    <text x="420" y="240" font-family="sans-serif" font-size="52" font-weight="800" fill="url(#tGrad)" filter="url(#sGlow)">iBot Synthetic</text>
+    <text x="420" y="300" font-family="sans-serif" font-size="52" font-weight="800" fill="url(#tGrad)" filter="url(#sGlow)">Intelligence</text>
+    <text x="420" y="345" font-family="sans-serif" font-size="18" fill="#888">Autonomous AI Platform by Time Loops — Juan J Serrano P</text>
+
+    <!-- Stats row -->
+    <g font-family="monospace" transform="translate(420,390)">
+      <g><rect width="100" height="55" rx="8" fill="rgba(0,255,157,0.06)" stroke="#00ff9d" stroke-width="0.5" opacity="0.5"/><text x="50" y="25" text-anchor="middle" fill="#00ff9d" font-size="22" font-weight="bold">136+</text><text x="50" y="42" text-anchor="middle" fill="#555" font-size="10">AI Skills</text></g>
+      <g transform="translate(120,0)"><rect width="100" height="55" rx="8" fill="rgba(0,184,255,0.06)" stroke="#00b8ff" stroke-width="0.5" opacity="0.5"/><text x="50" y="25" text-anchor="middle" fill="#00b8ff" font-size="22" font-weight="bold">14</text><text x="50" y="42" text-anchor="middle" fill="#555" font-size="10">Models</text></g>
+      <g transform="translate(240,0)"><rect width="100" height="55" rx="8" fill="rgba(245,158,11,0.06)" stroke="#f59e0b" stroke-width="0.5" opacity="0.5"/><text x="50" y="25" text-anchor="middle" fill="#f59e0b" font-size="22" font-weight="bold">19</text><text x="50" y="42" text-anchor="middle" fill="#555" font-size="10">Panels</text></g>
+      <g transform="translate(360,0)"><rect width="100" height="55" rx="8" fill="rgba(255,107,107,0.06)" stroke="#ff6b6b" stroke-width="0.5" opacity="0.5"/><text x="50" y="25" text-anchor="middle" fill="#ff6b6b" font-size="22" font-weight="bold">V8.2</text><text x="50" y="42" text-anchor="middle" fill="#555" font-size="10">Version</text></g>
+    </g>
+
+    <!-- Feature pills -->
+    <g font-family="sans-serif" font-size="12" transform="translate(420,475)">
+      <g><rect width="90" height="26" rx="13" fill="rgba(0,255,157,0.08)" stroke="#00ff9d" stroke-width="0.5"/><text x="45" y="17" text-anchor="middle" fill="#00ff9d">AI Copilot</text></g>
+      <g transform="translate(100,0)"><rect width="90" height="26" rx="13" fill="rgba(0,184,255,0.08)" stroke="#00b8ff" stroke-width="0.5"/><text x="45" y="17" text-anchor="middle" fill="#00b8ff">CyberLab</text></g>
+      <g transform="translate(200,0)"><rect width="90" height="26" rx="13" fill="rgba(245,158,11,0.08)" stroke="#f59e0b" stroke-width="0.5"/><text x="45" y="17" text-anchor="middle" fill="#f59e0b">Code IDE</text></g>
+      <g transform="translate(300,0)"><rect width="110" height="26" rx="13" fill="rgba(139,92,246,0.08)" stroke="#8b5cf6" stroke-width="0.5"/><text x="55" y="17" text-anchor="middle" fill="#8b5cf6">Ollama Vision</text></g>
+      <g transform="translate(420,0)"><rect width="120" height="26" rx="13" fill="rgba(255,107,107,0.08)" stroke="#ff6b6b" stroke-width="0.5"/><text x="60" y="17" text-anchor="middle" fill="#ff6b6b">GitHub Deploy</text></g>
+    </g>
+
+    <!-- Bottom bar -->
+    <rect y="560" width="1200" height="70" fill="rgba(0,0,0,0.4)"/>
+    <line x1="0" y1="560" x2="1200" y2="560" stroke="#00ff9d" stroke-width="0.5" opacity="0.15"/>
+    <text x="60" y="600" font-family="monospace" font-size="14" fill="#555">github.com/022UGDW213</text>
+    <text x="600" y="600" text-anchor="middle" font-family="monospace" font-size="13" fill="#333">Cybersecurity | AI/ML | Cloud | Autonomous Systems</text>
+    <text x="1140" y="600" text-anchor="end" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">Time Loops</text>
+
+    <!-- Particles -->
+    <g fill="#00ff9d" opacity="0.2">
+      <circle r="1.5"><animate attributeName="cx" values="50;1150" dur="20s" repeatCount="indefinite"/><animate attributeName="cy" values="100;120" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.3;0" dur="20s" repeatCount="indefinite"/></circle>
+      <circle r="1" fill="#00b8ff"><animate attributeName="cx" values="1100;100" dur="15s" repeatCount="indefinite"/><animate attributeName="cy" values="500;480" dur="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.25;0" dur="15s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Scan line -->
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#00ff9d" stroke-width="1" opacity="0.06">
+      <animate attributeName="y1" values="0;630;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="0;630;0" dur="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Border -->
+    <rect width="1200" height="630" rx="20" fill="none" stroke="#00ff9d" stroke-width="1" opacity="0.1"/>
+  </g>
+</svg>
