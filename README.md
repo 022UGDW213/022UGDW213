@@ -8,8 +8,9 @@
 
 <p align="center">
   <a href="https://github.com/022UGDW213"><img src="https://img.shields.io/badge/GitHub-022UGDW213-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://022ugdw213.github.io/network/"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.o22ugdw213.network"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://youtube.com/@O22UGDW213"><img src="https://img.shields.io/badge/YouTube-O22UGDW213-FF0000?style=for-the-badge&logo=youtube" /></a>
+  <a href="https://www.tiktok.com/@o22ugdw213"><img src="https://img.shields.io/badge/TikTok-o22ugdw213-000000?style=for-the-badge&logo=tiktok" /></a>
 </p>
 
 ---
@@ -17,16 +18,30 @@
 ### About Me
 
 Tech Enthusiast from **New York** building autonomous AI systems.
-Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 
 - Building **iBot Synthetic Intelligence** — autonomous AI platform with 136+ skills
-- Studying **Cybersecurity** — IBM SkillsBuild certificate track
+- Studying **Cybersecurity** — IBM SkillsBuild certificate
 - Exploring **HarmonyOS NEXT** — distributed OS development
 - Running **14 local AI models** via Ollama (4 with vision)
 
 ---
 
-### Flagship: iBot Synthetic Intelligence V8
+### www.o22ugdw213.network
+
+<a href="https://www.o22ugdw213.network">
+  <img src="https://raw.githubusercontent.com/022UGDW213/022UGDW213/main/assets/website-preview.svg" width="100%" alt="Visit www.o22ugdw213.network" />
+</a>
+
+<p align="center">
+  <a href="https://www.o22ugdw213.network"><img src="https://img.shields.io/badge/%F0%9F%8C%90_VISIT_LIVE_SITE-www.o22ugdw213.network-00ff9d?style=for-the-badge&labelColor=0a1628" /></a>
+  <a href="https://022ugdw213.github.io/network/"><img src="https://img.shields.io/badge/Portfolio-022ugdw213.github.io-00b8ff?style=for-the-badge&labelColor=0a1628" /></a>
+</p>
+
+> **iBot Synthetic Intelligence** — Autonomous AI platform running on EC2 with 19 dashboard panels, real-time CyberLab security monitoring (339K+ CVEs), multi-provider AI gateway, and 136+ orchestrated skills.
+
+---
+
+### iBot Synthetic Intelligence V8
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/022UGDW213/022UGDW213/main/assets/ibot-banner.svg" width="100%" alt="iBot Banner" />
@@ -62,25 +77,25 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI platform — 19 panels, 136+ skills, CyberLab | Node.js, C++, Python |
-| [**CyberLab Security**](https://github.com/022UGDW213/cyberlab-security-platform) | Security dashboard — CVE, breaches, AI threat analysis | React, TypeScript |
-| [**Network**](https://022ugdw213.github.io/network/) | Portfolio — particles, glassmorphism, responsive | HTML, CSS, JS |
+| [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI — 19 panels, 136+ skills, CyberLab | Node.js, C++, Python |
+| [**CyberLab Security**](https://github.com/022UGDW213/cyberlab-security-platform) | Security dashboard — CVE, breaches, AI analysis | React, TypeScript |
+| [**Network Portfolio**](https://022ugdw213.github.io/network/) | Portfolio — particles, glassmorphism | HTML, CSS, JS |
 | [**Harmony-OS-Next**](https://github.com/022UGDW213/Harmony-OS-Next) | HarmonyOS NEXT development | C, ArkTS |
-| [**Python Programming**](https://github.com/022UGDW213/Python-Programing) | 16-section Python course with AI/ML | Python |
-| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated resources — EN/CN/TR docs | C |
-| [**OpenClaw**](https://github.com/022UGDW213/openclaw) | Personal AI assistant (fork) | TypeScript |
+| [**Python Programming**](https://github.com/022UGDW213/Python-Programing) | 16-section Python + AI/ML course | Python |
+| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated resources — EN/CN/TR | C |
+| [**OpenClaw**](https://github.com/022UGDW213/openclaw) | Personal AI assistant | TypeScript |
 
 ---
 
 ### CyberLab — Live Security Intelligence
 
-| Source | Data |
-|--------|------|
-| NVD (NIST) | 339,000+ CVEs — real-time vulnerability tracking |
-| CISA KEV | 1,551 known exploited vulnerabilities |
-| HIBP | 962 verified data breaches |
-| Shodan InternetDB | IP recon — ports, vulns, hostnames |
-| OSV.dev | Package vulnerability checks |
+| Source | Data | API |
+|--------|------|-----|
+| **NVD** (NIST) | 339,000+ CVEs | `services.nvd.nist.gov` |
+| **CISA KEV** | 1,551 exploited vulns | `cisa.gov` |
+| **HIBP** | 962 verified breaches | `haveibeenpwned.com` |
+| **Shodan** | IP/port recon | `internetdb.shodan.io` |
+| **OSV.dev** | Package vulns | `api.osv.dev` |
 
 ---
 
@@ -96,8 +111,6 @@ Proficient in **Python, HTML/CSS, JavaScript, C/C++** and **Machine Learning**.
 </p>
 
 ---
-
-### Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=022UGDW213&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff9d&line=00b8ff&point=ffffff" />
