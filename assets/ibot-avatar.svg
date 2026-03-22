@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#00ff9d" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="glow-filter">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="200" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="195" fill="none" stroke="#0d2137" stroke-width="1"/>
+  <circle cx="200" cy="200" r="180" fill="url(#glow)"/>
+
+  <!-- Hex Grid Background -->
+  <g opacity="0.08" stroke="#00ff9d" fill="none" stroke-width="0.5">
+    <polygon points="200,60 240,83 240,129 200,152 160,129 160,83">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="260,106 300,129 300,175 260,198 220,175 220,129">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="140,106 180,129 180,175 140,198 100,175 100,129">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4.5s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="200,175 240,198 240,244 200,267 160,244 160,198">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="260,221 300,244 300,290 260,313 220,290 220,244">
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="5s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="140,221 180,244 180,290 140,313 100,290 100,244">
+      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.8s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Orbit Rings -->
+  <circle cx="200" cy="200" r="140" fill="none" stroke="#00ff9d" stroke-width="0.6" opacity="0.15" stroke-dasharray="8 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="30s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="200" r="110" fill="none" stroke="#00b8ff" stroke-width="0.6" opacity="0.12" stroke-dasharray="5 10">
+    <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="#00ff9d" stroke-width="0.4" opacity="0.1" stroke-dasharray="3 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="18s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Orbiting Nodes -->
+  <g filter="url(#glow-filter)">
+    <circle r="5" fill="#00ff9d" opacity="0.8">
+      <animateMotion dur="30s" repeatCount="indefinite" path="M200,60 A140,140 0 1,1 199.9,60"/>
+    </circle>
+    <circle r="4" fill="#00b8ff" opacity="0.7">
+      <animateMotion dur="25s" repeatCount="indefinite" path="M200,90 A110,110 0 1,0 199.9,90"/>
+    </circle>
+    <circle r="3" fill="#ff6b6b" opacity="0.6">
+      <animateMotion dur="18s" repeatCount="indefinite" path="M200,120 A80,80 0 1,1 199.9,120"/>
+    </circle>
+    <circle r="4" fill="#f59e0b" opacity="0.7">
+      <animateMotion dur="22s" repeatCount="indefinite" path="M200,90 A110,110 0 1,1 199.9,90"/>
+    </circle>
+  </g>
+
+  <!-- Main Hexagon -->
+  <polygon points="200,120 250,149 250,207 200,236 150,207 150,149" fill="none" stroke="#00ff9d" stroke-width="2" opacity="0.9" filter="url(#glow-filter)">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Inner Hexagon -->
+  <polygon points="200,140 235,157 235,193 200,210 165,193 165,157" fill="rgba(0,255,157,0.03)" stroke="#00ff9d" stroke-width="1" opacity="0.5">
+    <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Spoke Lines -->
+  <g stroke="#00ff9d" stroke-width="0.6" opacity="0.2">
+    <line x1="200" y1="178" x2="200" y2="120"/>
+    <line x1="200" y1="178" x2="250" y2="149"/>
+    <line x1="200" y1="178" x2="250" y2="207"/>
+    <line x1="200" y1="178" x2="200" y2="236"/>
+    <line x1="200" y1="178" x2="150" y2="207"/>
+    <line x1="200" y1="178" x2="150" y2="149"/>
+  </g>
+
+  <!-- Vertex Nodes -->
+  <g filter="url(#glow-filter)">
+    <circle cx="200" cy="120" r="4" fill="#00ff9d">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="149" r="3.5" fill="#00b8ff">
+      <animate attributeName="r" values="2.5;4.5;2.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="207" r="3.5" fill="#00b8ff">
+      <animate attributeName="r" values="3;4;3" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="236" r="4" fill="#00ff9d">
+      <animate attributeName="r" values="3;5;3" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="207" r="3.5" fill="#00ff9d">
+      <animate attributeName="r" values="2.5;4.5;2.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="149" r="3.5" fill="#00b8ff">
+      <animate attributeName="r" values="3;4;3" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Core Hub -->
+  <circle cx="200" cy="178" r="18" fill="#00ff9d" opacity="0.12">
+    <animate attributeName="r" values="16;22;16" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.18;0.08" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="178" r="12" fill="#00ff9d" opacity="0.9" filter="url(#glow-filter)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="178" r="5" fill="#050a14"/>
+
+  <!-- Data Stream Particles -->
+  <g fill="#00ff9d" opacity="0.5">
+    <circle r="1.5"><animate attributeName="cy" values="350;50" dur="6s" repeatCount="indefinite"/><animate attributeName="cx" values="120;130" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle r="1"><animate attributeName="cy" values="370;30" dur="5s" repeatCount="indefinite"/><animate attributeName="cx" values="280;270" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="5s" repeatCount="indefinite"/></circle>
+    <circle r="1.5"><animate attributeName="cy" values="380;40" dur="7s" repeatCount="indefinite"/><animate attributeName="cx" values="320;310" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.4;0" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="1"><animate attributeName="cy" values="360;20" dur="4.5s" repeatCount="indefinite"/><animate attributeName="cx" values="90;100" dur="4.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle r="1.2" fill="#00b8ff"><animate attributeName="cy" values="40;360" dur="5.5s" repeatCount="indefinite"/><animate attributeName="cx" values="200;210" dur="5.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.5;0" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle r="1" fill="#ff6b6b"><animate attributeName="cy" values="50;350" dur="6.5s" repeatCount="indefinite"/><animate attributeName="cx" values="160;150" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.3;0" dur="6.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Text: iBot -->
+  <text x="200" y="285" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#00ff9d" filter="url(#glow-filter)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>iBot
+  </text>
+  <text x="200" y="308" text-anchor="middle" font-family="monospace" font-size="10" fill="#00b8ff" opacity="0.6" letter-spacing="3">
+    SYNTHETIC INTELLIGENCE
+  </text>
+
+  <!-- Scan Line -->
+  <line x1="60" y1="0" x2="340" y2="0" stroke="#00ff9d" stroke-width="1" opacity="0.15">
+    <animate attributeName="y1" values="60;340;60" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="60;340;60" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.15;0" dur="8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Outer Ring Pulse -->
+  <circle cx="200" cy="200" r="190" fill="none" stroke="#00ff9d" stroke-width="1" opacity="0">
+    <animate attributeName="r" values="170;195;170" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

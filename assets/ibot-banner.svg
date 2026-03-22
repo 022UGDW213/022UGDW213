@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bannerBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050a14"/>
+      <stop offset="50%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff9d"/>
+      <stop offset="100%" stop-color="#00b8ff"/>
+    </linearGradient>
+    <filter id="bGlow"><feGaussianBlur stdDeviation="2" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+  </defs>
+
+  <rect width="800" height="200" rx="12" fill="url(#bannerBg)"/>
+  <rect width="800" height="200" rx="12" fill="none" stroke="#00ff9d" stroke-width="1" opacity="0.15"/>
+
+  <!-- Grid lines -->
+  <g stroke="#00ff9d" stroke-width="0.3" opacity="0.05">
+    <line x1="0" y1="50" x2="800" y2="50"/><line x1="0" y1="100" x2="800" y2="100"/><line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="100" y1="0" x2="100" y2="200"/><line x1="200" y1="0" x2="200" y2="200"/><line x1="300" y1="0" x2="300" y2="200"/><line x1="400" y1="0" x2="400" y2="200"/><line x1="500" y1="0" x2="500" y2="200"/><line x1="600" y1="0" x2="600" y2="200"/><line x1="700" y1="0" x2="700" y2="200"/>
+  </g>
+
+  <!-- Mini hex logo -->
+  <g transform="translate(80,100)" filter="url(#bGlow)">
+    <polygon points="0,-35 30,-17.5 30,17.5 0,35 -30,17.5 -30,-17.5" fill="none" stroke="#00ff9d" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <circle r="10" fill="#00ff9d" opacity="0.85"><animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/></circle>
+    <circle r="4" fill="#050a14"/>
+    <!-- orbit -->
+    <circle r="3" fill="#00b8ff" opacity="0.7"><animateMotion dur="8s" repeatCount="indefinite" path="M0,-35 A35,35 0 1,1 -0.1,-35"/></circle>
+  </g>
+
+  <!-- Title -->
+  <text x="160" y="85" font-family="monospace" font-size="36" font-weight="bold" fill="url(#textGrad)" filter="url(#bGlow)">iBot Synthetic Intelligence</text>
+  <text x="160" y="115" font-family="monospace" font-size="14" fill="#888" letter-spacing="1">by Time Loops — Juan J Serrano P #o22ugdw213</text>
+
+  <!-- Stats -->
+  <g font-family="monospace" font-size="11" text-anchor="middle">
+    <text x="220" y="155" fill="#00ff9d" font-size="18" font-weight="bold">136+</text><text x="220" y="170" fill="#555">Skills</text>
+    <text x="340" y="155" fill="#00b8ff" font-size="18" font-weight="bold">14</text><text x="340" y="170" fill="#555">Models</text>
+    <text x="460" y="155" fill="#f59e0b" font-size="18" font-weight="bold">5</text><text x="460" y="170" fill="#555">Providers</text>
+    <text x="580" y="155" fill="#ff6b6b" font-size="18" font-weight="bold">19</text><text x="580" y="170" fill="#555">Panels</text>
+    <text x="700" y="155" fill="#8b5cf6" font-size="18" font-weight="bold">V8.2</text><text x="700" y="170" fill="#555">Version</text>
+  </g>
+
+  <!-- Particles -->
+  <g fill="#00ff9d" opacity="0.3">
+    <circle r="1"><animate attributeName="cx" values="0;800" dur="12s" repeatCount="indefinite"/><animate attributeName="cy" values="30;40" dur="12s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.4;0" dur="12s" repeatCount="indefinite"/></circle>
+    <circle r="1.5" fill="#00b8ff"><animate attributeName="cx" values="800;0" dur="10s" repeatCount="indefinite"/><animate attributeName="cy" values="170;160" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.3;0" dur="10s" repeatCount="indefinite"/></circle>
+    <circle r="1"><animate attributeName="cx" values="100;700" dur="15s" repeatCount="indefinite"/><animate attributeName="cy" values="190;10" dur="15s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.3;0" dur="15s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Scan line -->
+  <line x1="0" y1="0" x2="800" y2="0" stroke="#00ff9d" stroke-width="1" opacity="0.1">
+    <animate attributeName="y1" values="0;200;0" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="0;200;0" dur="6s" repeatCount="indefinite"/>
+  </line>
+</svg>
