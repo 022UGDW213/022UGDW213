@@ -1,0 +1,40 @@
+name: Validate profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: Validate Markdown and repository hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check whitespace errors
+        run: git diff --check
+
+      - name: Check required profile files
+        run: |
+          test -s README.md
+          test -s CONTRIBUTING.md
+          test -s SECURITY.md
+          test -s assets/ibot-avatar.svg
+          test -s assets/ibot-banner.svg
+
+      - name: Validate SVG XML
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          import xml.etree.ElementTree as ET
+
+          for path in pathlib.Path("assets").glob("*.svg"):
+              ET.parse(path)
+              print(f"validated {path}")
+          PY

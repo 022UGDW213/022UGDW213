@@ -57,6 +57,21 @@ Tech Enthusiast from **New York** building **autonomous AI systems** at the edge
 
 ---
 
+## Full-Stack Architecture
+The projects presented here follow a modular, local-first architecture:
+
+| Layer | Technologies | Purpose |
+|--------|--------------|---------|
+| Experience | React, TypeScript, HTML, CSS, WebSocket | Dashboards, IDE workflows, live agent activity, and portfolio interfaces |
+| Application services | Node.js, Express, FastAPI | REST APIs, orchestration, authentication boundaries, and service adapters |
+| Intelligence | C++17, PyTorch, TensorFlow, Qiskit, LangChain | Neural inference, machine learning, quantum experiments, and agent workflows |
+| Data | MySQL, ChromaDB, SQLite, JSON/Parquet | Operational records, vector retrieval, local development, and data exchange |
+| Delivery | Docker, Linux, GitHub Actions, cloud provider APIs | Reproducible environments, automated checks, and deployment workflows |
+
+The profile repository is intentionally documentation-first. Application-specific runtime files, databases, and deployment manifests remain in their respective project repositories.
+
+---
+
 ## Live GitHub Stats
 
 <p align="center">
