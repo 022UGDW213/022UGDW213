@@ -75,16 +75,7 @@ The profile repository is intentionally documentation-first. Application-specifi
 ## Live GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=022UGDW213&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9d&icon_color=00b8ff&text_color=c9d1d9" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=022UGDW213&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff9d&text_color=c9d1d9" height="170" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=022UGDW213&theme=radical&hide_border=true&background=0d1117&ring=00ff9d&fire=00b8ff&currStreakLabel=00ff9d" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=022UGDW213&theme=react-dark&hide_border=true&bg_color=0d1117&color=00ff9d&line=00b8ff&point=ffffff" />
 </p>
 
 ---
@@ -104,6 +95,10 @@ The profile repository is intentionally documentation-first. Application-specifi
 | [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI — 11 services, 687+ skills, CyberLab, Q-SINE brain | Node.js, Python, C++17 |
 | [**network**](https://github.com/022UGDW213/network) | Portfolio — Time Loops / o22ugdw213.network | HTML, CSS, JS |
 | [**CyberLab Security Platform**](https://github.com/022UGDW213/cyberlab-security-platform) | Live threat intelligence dashboard | Python, FastAPI |
+| [**Harmony-OS-Next**](https://github.com/022UGDW213/Harmony-OS-Next) | HarmonyOS NEXT — DevEco scaffolding, ArkTS examples, VM tooling | ArkTS, Shell |
+| [**Python-Programing**](https://github.com/022UGDW213/Python-Programing) | Complete Python course — 16 sections, basics to AI/ML | Python |
+| [**HTML-Programing**](https://github.com/022UGDW213/HTML-Programing) | JavaScript30 — 30 vanilla JS coding challenges | JavaScript |
+| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated HarmonyOS resources (EN/中文/Türkçe) + NEXT | Docs |
 
 ---
 
