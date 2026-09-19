@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://github.com/022UGDW213"><img src="https://img.shields.io/badge/GitHub-022UGDW213-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://www.o22ugdw213.network"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://www.o22ugdw213.network/portfolio.html"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://022ugdw213.github.io/network/"><img src="https://img.shields.io/badge/Portfolio-022ugdw213.github.io-00b8ff?style=for-the-badge&logo=react&logoColor=white" /></a>
   <a href="https://youtube.com/@O22UGDW213"><img src="https://img.shields.io/badge/YouTube-O22UGDW213-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <a href="https://www.tiktok.com/@o22ugdw213"><img src="https://img.shields.io/badge/TikTok-o22ugdw213-000000?style=for-the-badge&logo=tiktok" /></a>
@@ -119,7 +120,7 @@ The profile repository is intentionally documentation-first. Application-specifi
 |---------|-------------|-------|
 | [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI — 11 services, 687+ skills, CyberLab, Q-SINE brain | Node.js, Python, C++17 |
 | [**network**](https://github.com/022UGDW213/network) | Portfolio — Time Loops / o22ugdw213.network | HTML, CSS, JS |
-| [**o22ugdw213.network**](https://github.com/022UGDW213/o22ugdw213.network) | Personal site — DevSwarm showcase, night-drive playlist | HTML, CSS, JS |
+| [**o22ugdw213.network**](https://github.com/022UGDW213/o22ugdw213.network) | Personal site — DevSwarm showcase, night-drive playlist, [work page](https://www.o22ugdw213.network/portfolio.html) | HTML, CSS, JS |
 | [**nvidia-muse-dev-swarm**](https://github.com/022UGDW213/nvidia-muse-dev-swarm) | DevSwarm build log — NVIDIA free-tier client + 30-agent system | Python, Docs |
 | [**agent-mail-intel**](https://github.com/022UGDW213/agent-mail-intel) | GitHub notification intel — Copilot/agent PR patterns | Python |
 | [**CyberLab Security Platform**](https://github.com/022UGDW213/cyberlab-security-platform) | Live threat intelligence dashboard | Python, FastAPI |
