@@ -38,11 +38,11 @@
 
   <!-- Stats -->
   <g font-family="monospace" font-size="11" text-anchor="middle">
-    <text x="220" y="155" fill="#00ff9d" font-size="18" font-weight="bold">136+</text><text x="220" y="170" fill="#555">Skills</text>
-    <text x="340" y="155" fill="#00b8ff" font-size="18" font-weight="bold">14</text><text x="340" y="170" fill="#555">Models</text>
-    <text x="460" y="155" fill="#f59e0b" font-size="18" font-weight="bold">5</text><text x="460" y="170" fill="#555">Providers</text>
-    <text x="580" y="155" fill="#ff6b6b" font-size="18" font-weight="bold">19</text><text x="580" y="170" fill="#555">Panels</text>
-    <text x="700" y="155" fill="#8b5cf6" font-size="18" font-weight="bold">V8.2</text><text x="700" y="170" fill="#555">Version</text>
+    <text x="220" y="155" fill="#00ff9d" font-size="18" font-weight="bold">687+</text><text x="220" y="170" fill="#555">Skills</text>
+    <text x="340" y="155" fill="#00b8ff" font-size="18" font-weight="bold">15</text><text x="340" y="170" fill="#555">Models</text>
+    <text x="460" y="155" fill="#f59e0b" font-size="18" font-weight="bold">6</text><text x="460" y="170" fill="#555">Providers</text>
+    <text x="580" y="155" fill="#ff6b6b" font-size="18" font-weight="bold">11</text><text x="580" y="170" fill="#555">Services</text>
+    <text x="700" y="155" fill="#8b5cf6" font-size="18" font-weight="bold">V8</text><text x="700" y="170" fill="#555">Version</text>
   </g>
 
   <!-- Particles -->
