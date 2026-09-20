@@ -12,7 +12,7 @@
   <a href="https://www.o22ugdw213.network/portfolio.html"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://022ugdw213.github.io/network/"><img src="https://img.shields.io/badge/Portfolio-022ugdw213.github.io-00b8ff?style=for-the-badge&logo=react&logoColor=white" /></a>
   <a href="https://youtube.com/@O22UGDW213"><img src="https://img.shields.io/badge/YouTube-O22UGDW213-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-  <a href="https://www.[tiktok.com/@o22ugdw213](https://www.tiktok.com/@cyberguard2025)"><img src="https://img.shields.io/badge/TikTok-o22ugdw213-000000?style=for-the-badge&logo=tiktok" /></a>
+  <a href="https://www.tiktok.com/@o22ugdw213"><img src="https://img.shields.io/badge/TikTok-o22ugdw213-000000?style=for-the-badge&logo=tiktok" /></a>
   <a href="https://open.spotify.com/playlist/2FQuFfKdhmo0UYsm42K4WX"><img src="https://img.shields.io/badge/Spotify-night%20drive-1DB954?style=for-the-badge&logo=spotify&logoColor=white" /></a>
 </p>
 
