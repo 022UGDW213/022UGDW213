@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/022UGDW213"><img src="https://img.shields.io/badge/GitHub-022UGDW213-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://o22ugdw213.network"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://o22ugdw213.network/portfolio.html"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://o22ugdw213.network/portfolio"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 </p>
 
 ---
