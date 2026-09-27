@@ -8,8 +8,8 @@
 
 <p align="center">
   <a href="https://github.com/022UGDW213"><img src="https://img.shields.io/badge/GitHub-022UGDW213-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.o22ugdw213.network"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-  <a href="https://www.o22ugdw213.network/portfolio.html"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://o22ugdw213.network"><img src="https://img.shields.io/badge/Website-o22ugdw213.network-00ff9d?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://o22ugdw213.network/portfolio.html"><img src="https://img.shields.io/badge/Work-portfolio-00b8ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
   <a href="https://022ugdw213.github.io/network/"><img src="https://img.shields.io/badge/Portfolio-022ugdw213.github.io-00b8ff?style=for-the-badge&logo=react&logoColor=white" /></a>
   <a href="https://youtube.com/@O22UGDW213"><img src="https://img.shields.io/badge/YouTube-O22UGDW213-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <a href="https://www.tiktok.com/@cyberguard2025"><img src="https://img.shields.io/badge/TikTok-o22ugdw213-000000?style=for-the-badge&logo=tiktok" /></a>
@@ -22,11 +22,11 @@
 
 Tech Enthusiast from **New York** building **autonomous AI systems** at the edge.
 
-- 🧠 **iBot Synthetic Intelligence V8** — autonomous multi-service AI platform (687+ skills, 9 agentic agents, 11 live services)
-- 🛡️ **Cybersecurity** — live CyberLab intelligence (339K+ CVEs, CISA KEV, HIBP, Shodan)
+- 🧠 **iBot Synthetic Intelligence V8** — autonomous multi-service AI platform (698 skills, 9 agentic agents, 14 services)
+- 🛡️ **Cybersecurity** — live CyberLab intelligence (NVD, CISA KEV, HIBP, Shodan InternetDB, OSV.dev)
 - ⚡ **Quantum + GPU** — Qiskit circuits, CUDA SHA-256d mining, NVIDIA Nemotron / Dynamo / RAG stack
-- 🤖 **Local-first AI** — 15 Ollama models (4 with vision), multi-provider gateway (Bedrock · DeepSeek · Cloudflare · Google · NVIDIA)
-- 🐝 **DevSwarm** — 30-agent DevOps swarm on one SQLite task queue (atomic claims, 5-attempt poison-task guard, HF-trained knowledge)
+- 🤖 **Local-first AI** — 15 local iBot models (3 with vision), multi-provider gateway (DeepSeek · OpenAI · NVIDIA · xAI · Google · Groq · Mistral · Cloudflare)
+- 🐝 **DevSwarm** — 30-agent DevOps swarm on one SQLite task queue (atomic claims, HF-trained knowledge)
 
 ---
 
@@ -37,47 +37,47 @@ Tech Enthusiast from **New York** building **autonomous AI systems** at the edge
 </p>
 
 <p align="center">
-  <a href="https://github.com/022UGDW213/ibot-synthetic-intelligence"><img src="https://img.shields.io/badge/REPO-ibot--synthetic--intelligence-00ff9d?style=for-the-badge&labelColor=0d1117&logo=github" /></a>
-  <a href="https://www.o22ugdw213.network"><img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE-www.o22ugdw213.network-00b8ff?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="https://github.com/022UGDW213/ibot-synthetic-intelligence"><img src="https://img.shields.io/badge/REPO-ibot--synthetic--intelligence%20(private)-00ff9d?style=for-the-badge&labelColor=0d1117&logo=github" /></a>
+  <a href="https://o22ugdw213.network"><img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE-o22ugdw213.network-00b8ff?style=for-the-badge&labelColor=0d1117" /></a>
 </p>
 
 <table align="center">
 <tr>
-<td align="center"><strong>687+</strong><br><sub>AI Skills</sub></td>
-<td align="center"><strong>336</strong><br><sub>NVIDIA Catalog</sub></td>
+<td align="center"><strong>698</strong><br><sub>AI Skills</sub></td>
+<td align="center"><strong>339</strong><br><sub>GPU/ML/NVIDIA Skills</sub></td>
 <td align="center"><strong>9</strong><br><sub>Agentic Agents</sub></td>
 <td align="center"><strong>15</strong><br><sub>Local Models</sub></td>
-<td align="center"><strong>6</strong><br><sub>AI Providers</sub></td>
-<td align="center"><strong>11</strong><br><sub>Live Services</sub></td>
+<td align="center"><strong>10</strong><br><sub>AI Providers</sub></td>
+<td align="center"><strong>14</strong><br><sub>Services Started</sub></td>
 </tr>
 </table>
 
-**Features:** AI Copilot, Code IDE, CyberLab Security (339K+ CVEs live), Skill Marketplace (687+), Pipeline Composer, Group Chat, Ollama Vision, Quantum Lab, Node Graph, GitHub Auto-Deploy
+**Features:** AI Copilot, Code IDE, CyberLab Security (live NVD/CISA/HIBP feeds), Skill Marketplace (698), Pipeline Composer, Group Chat, Multimodal Vision, Quantum Lab, Node Graph, GitHub Auto-Deploy
 
 **Stack:** Node.js · Express · ws · Python FastAPI · C++17 (Q-SINE neural brain) · TensorFlow · PyTorch · Qiskit · LangChain · ChromaDB · MySQL
 
-**Providers:** AWS Bedrock (Claude) · DeepSeek · OpenAI · Ollama · Cloudflare AI · NVIDIA Nemotron-3 Ultra 550B
+**Providers:** DeepSeek · OpenAI · NVIDIA · xAI · Google AI · Groq · Mistral · Cloudflare AI (key vault, 7 LLM + 3 cloud integrations)
 
 ---
 
 ## DevSwarm — 30-Agent DevOps Swarm
 
 <p align="center">
-  <a href="https://github.com/022UGDW213/nvidia-muse-dev-swarm"><img src="https://img.shields.io/badge/REPO-nvidia--muse--dev--swarm-00ff9d?style=for-the-badge&labelColor=0d1117&logo=github" /></a>
-  <a href="https://www.o22ugdw213.network#devswarm"><img src="https://img.shields.io/badge/%E2%9A%A1_LIVE-o22ugdw213.network%23devswarm-00b8ff?style=for-the-badge&labelColor=0d1117" /></a>
+  <a href="https://github.com/022UGDW213/ibot-Mythos-VPC-Devswarm"><img src="https://img.shields.io/badge/REPO-ibot--Mythos--VPC--Devswarm-00ff9d?style=for-the-badge&labelColor=0d1117&logo=github" /></a>
+  <a href="https://o22ugdw213.network#devswarm"><img src="https://img.shields.io/badge/%E2%9A%A1_LIVE-o22ugdw213.network%23devswarm-00b8ff?style=for-the-badge&labelColor=0d1117" /></a>
 </p>
 
 <table align="center">
 <tr>
 <td align="center"><strong>30</strong><br><sub>Specialist Agents</sub></td>
 <td align="center"><strong>1</strong><br><sub>SQLite Task Queue</sub></td>
-<td align="center"><strong>2,707</strong><br><sub>HF Knowledge Docs</sub></td>
-<td align="center"><strong>5</strong><br><sub>Attempt Poison Cap</sub></td>
-<td align="center"><strong>0</strong><br><sub>Hidden State</sub></td>
+<td align="center"><strong>3,295</strong><br><sub>FTS Knowledge Docs</sub></td>
+<td align="center"><strong>38</strong><br><sub>Skill Runbooks</sub></td>
+<td align="center"><strong>3</strong><br><sub>Skill Hits per Task</sub></td>
 </tr>
 </table>
 
-**Model:** a coordinator plus 30 detached DevOps specialists — Docker, Kubernetes, Terraform, Ansible, AWS / GCP / Azure, security hardening, incident response — sharing one SQLite-backed task queue. Workers claim tasks atomically: one worker, one task, one transaction. Every outcome is a result — success, retry, or dead-letter after 5 attempts.
+**Model:** a coordinator plus 30 detached DevOps specialists — Docker, Kubernetes, Terraform, Ansible, AWS / GCP / Azure, security hardening, incident response — sharing one SQLite-backed task queue. Workers claim tasks atomically: one worker, one task, one transaction. A run that does not succeed is recorded as `failed` with its attempt count; there is no automatic retry or dead-letter path.
 
 **Knowledge:** each specialty trained on Hugging Face datasets into a shared FTS5 index; workers attach the top-3 skill hits to every task. Runbooks: ML training, LLM ops, swarm orchestration, MCP protocol, AI tutoring.
 
@@ -116,30 +116,59 @@ The profile repository is intentionally documentation-first. Application-specifi
 
 ## Projects
 
+Repositories marked *(private)* are not listed by the public GitHub API and return 404 on the web; their SSH remotes work.
+
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) | Autonomous AI — 11 services, 687+ skills, CyberLab, Q-SINE brain | Node.js, Python, C++17 |
+| [**iBot Synthetic Intelligence**](https://github.com/022UGDW213/ibot-synthetic-intelligence) *(private)* | Autonomous AI — 14 services, 698 skills, CyberLab, Q-SINE brain | Node.js, Python, C++17 |
 | [**network**](https://github.com/022UGDW213/network) | Portfolio — Time Loops / o22ugdw213.network | HTML, CSS, JS |
-| [**o22ugdw213.network**](https://github.com/022UGDW213/o22ugdw213.network) | Personal site — DevSwarm showcase, night-drive playlist, [work page](https://www.o22ugdw213.network/portfolio.html) | HTML, CSS, JS |
-| [**nvidia-muse-dev-swarm**](https://github.com/022UGDW213/nvidia-muse-dev-swarm) | DevSwarm build log — NVIDIA free-tier client + 30-agent system | Python, Docs |
+| [**o22ugdw213.network**](https://github.com/022UGDW213/o22ugdw213.network) *(private, site published at [o22ugdw213.network](https://o22ugdw213.network/portfolio.html))* | Personal site — DevSwarm showcase, night-drive playlist | HTML, CSS, JS |
+| [**ibot-Mythos-VPC-Devswarm**](https://github.com/022UGDW213/ibot-Mythos-VPC-Devswarm) | DevSwarm build log — 30-agent DevOps swarm, SQLite queue | Python, Docs |
+| [**dev-swarm-training**](https://github.com/022UGDW213/dev-swarm-training) | DevSwarm knowledge — 3,295-doc FTS5 index + zero-dependency Node.js query API | Python, Node.js |
 | [**agent-mail-intel**](https://github.com/022UGDW213/agent-mail-intel) | GitHub notification intel — Copilot/agent PR patterns | Python |
-| [**CyberLab Security Platform**](https://github.com/022UGDW213/cyberlab-security-platform) | Live threat intelligence dashboard | Python, FastAPI |
+| [**cyberlab-security-platform**](https://github.com/022UGDW213/cyberlab-security-platform) *(private)* | Threat intelligence dashboard — NVD/MITRE CVE feed, npm audit + malware scanner | TypeScript, React |
 | [**Harmony-OS-Next**](https://github.com/022UGDW213/Harmony-OS-Next) | HarmonyOS NEXT — DevEco scaffolding, ArkTS examples, VM tooling | ArkTS, Shell |
 | [**Python-Programing**](https://github.com/022UGDW213/Python-Programing) | Complete Python course — 16 sections, basics to AI/ML | Python |
 | [**HTML-Programing**](https://github.com/022UGDW213/HTML-Programing) | JavaScript30 — 30 vanilla JS coding challenges | JavaScript |
-| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) | Curated HarmonyOS resources (EN/中文/Türkçe) + NEXT | Docs |
+| [**HarmonyOS**](https://github.com/022UGDW213/HarmonyOS) *(fork of upstream HarmonyOS resources)* | Curated HarmonyOS resources (EN/中文/Türkçe) + NEXT | Docs |
 
 ---
 
 ## CyberLab — Live Security Intelligence
 
+Counts are live from each public API, sampled 2026-09-27.
+
 | Source | Data | API |
 |--------|------|-----|
-| **NVD** (NIST) | 339,000+ CVEs | `services.nvd.nist.gov` |
-| **CISA KEV** | 1,551 exploited vulns | `cisa.gov` |
-| **HIBP** | 962 verified breaches | `haveibeenpwned.com` |
+| **NVD** (NIST) | 398,446 CVEs | `services.nvd.nist.gov` |
+| **CISA KEV** | 1,726 exploited vulns | `cisa.gov` |
+| **HIBP** | 1,038 verified breaches | `haveibeenpwned.com` |
 | **Shodan** | IP/port recon | `internetdb.shodan.io` |
 | **OSV.dev** | Package vulns | `api.osv.dev` |
+
+---
+
+## How these numbers were checked
+
+Each figure above is reproducible with the commands below (measured 2026-09-27 on this workstation; `$V8` is the iBot Synthetic Intelligence V8 checkout).
+
+| Claim | Value | Command |
+|-------|-------|---------|
+| Agent skills | 698 | `find "$V8/.agents/skills" -name SKILL.md \| wc -l` (700 dirs, 698 with a `SKILL.md`) |
+| GPU/ML/NVIDIA skills | 339 | `GPU, ML & NVIDIA` bucket of `publicSkillCategory()` in `ibot-ui/server/server.js` |
+| Agentic agents | 9 | `ls "$V8/apps/ibot-agents/agents/"*.py` minus `base_agent.py` / `__init__.py` |
+| Local models | 15 | `jq '.totalSkills, .totalSizeGB'` on `Localhost Ai gateway/manifests/iBot Synthetic Intelligence Ai/skills-registry.json` → `15` / `"200.42 (local) + cloud"` |
+| AI providers | 10 | `PROVIDER_DEFS` in `ibot-ui/server/server.js` (7 LLM + 3 cloud) |
+| Services started | 14 | `grep -cE 'step "[A-Za-z].*port' start-all.sh` |
+| Swarm workers | 30 | `ls dev-swarm/agents/*.json \| wc -l` |
+| FTS knowledge docs | 3,295 | `sqlite3 data/index.db "SELECT count(*) FROM docs;"` |
+| Skill runbooks | 38 | `ls dev-swarm/skills/ \| wc -l` |
+| Skill hits per task | 3 | `skill_lookup(payload_text, limit=3)` in `dev-swarm/swarm.py` |
+| NVD CVEs | 398,446 | `curl -s 'https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=1' \| jq .totalResults` |
+| CISA KEV | 1,726 | `curl -s 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json' \| jq '.vulnerabilities \| length'` |
+| HIBP breaches | 1,038 | `curl -s -A 'iBot' 'https://haveibeenpwned.com/api/v3/breaches' \| jq length` |
+
+Local-stack service counts describe what `./start-all.sh` starts, not a live probe — most of the local stack is not running when this page is rendered.
 
 ---
 
