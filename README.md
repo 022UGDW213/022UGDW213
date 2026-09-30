@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=900&color=00FF9D&center=true&vCenter=true&random=false&width=640&lines=autonomous+systems;AI+%26+security" alt="timeloops" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=900&color=00FF9D&center=true&vCenter=true&random=false&width=640&lines=autonomous+systems;AI+%26+security" alt="022UGDW213" />
 </h1>
 
 <p align="center">
@@ -41,13 +41,13 @@ AI systems engineer building **autonomous platforms**, **security tooling**, and
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,nodejs,fastapi,react,docker,kubernetes,aws,linux,git,sqlite&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,javascript,nodejs,fastapi,docker,sqlite,cpp,cloudflare,linux,git&theme=dark" />
 </p>
 
-**Languages:** Python · TypeScript · JavaScript · C++ · Go  
+**Languages:** Python · TypeScript · JavaScript · C++  
 **Backends:** Node.js · FastAPI · Express · SQLite  
-**Infrastructure:** Docker · Kubernetes · AWS · GitHub Actions  
-**ML/Data:** PyTorch · TensorFlow · LangChain · ChromaDB · Qiskit  
+**Infrastructure:** Docker · Cloudflare Workers · GitHub Actions · Linux  
+**AI/ML:** PyTorch · local inference · RAG pipelines · dataset curation  
 
 ---
 
